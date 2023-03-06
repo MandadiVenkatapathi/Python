@@ -1,0 +1,1 @@
+import mysql.connectorcon=mysql.connector.connect(host="localhost",                            user='root',                            password='Venkat12345@')cur=con.cursur()dcq="create database 9am"cur.execute(dcq)print("Database created successfully in MySQL",dcq)
